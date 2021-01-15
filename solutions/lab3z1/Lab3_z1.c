@@ -37,12 +37,12 @@ static void solveQuadraticEquation(float a, float b, float c)
 
 void solveLab3Z1(void)
 {
-    // struktura zawierająca dane o pliku
+    // wskaźnik do struktury zawierającej dane o pliku (handle)
     FILE *fp;
     // współczynniki, które będziemy czytać z pliku
     float a, b, c;
     
-    // twieramy plik do odczytu w trybie tekstowym, możliwe tryby:
+    // otwieramy plik do odczytu w trybie tekstowym, możliwe tryby:
     // * "r"   - tryb tekstowy do odczytu
     // * "r+"  - tryb tekstowy od odczytu/zapisu
     // * "w"   - tryb tekstowy do zapisu

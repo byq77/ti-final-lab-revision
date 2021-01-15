@@ -1,2 +1,3 @@
 #cmakedefine LAB3_ZAD1_SOLUTION
-
+#cmakedefine LAB3_ZAD1A_SOLUTION
+#cmakedefine LAB3_ZAD1B_SOLUTION
