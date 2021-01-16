@@ -1,3 +1,7 @@
 #cmakedefine LAB3_ZAD1_SOLUTION
 #cmakedefine LAB3_ZAD1A_SOLUTION
 #cmakedefine LAB3_ZAD1B_SOLUTION
+#cmakedefine LAB3_ZAD2_SOLUTION
+#cmakedefine LAB3_ZAD3_SOLUTION
+#cmakedefine LAB3_ZAD4_SOLUTION
+#cmakedefine LAB3_ZAD5_SOLUTION
