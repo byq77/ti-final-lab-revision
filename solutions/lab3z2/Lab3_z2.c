@@ -6,7 +6,7 @@
 #include <limits.h>
 
 // ścieżka do pliku (system Linux)
-const char * data_file_path = "/home/byq77/workspace/c-workspace/ti-final-lab-revision/solutions/lab3z2/dane.txt";
+static const char * data_file_path = "/home/byq77/workspace/c-workspace/ti-final-lab-revision/solutions/lab3z2/dane.txt";
 
 // definicje funkcji inline zwracających maksimum lub minimum
 static inline int imin(int a, int b) { return (a > b ? b : a); }
