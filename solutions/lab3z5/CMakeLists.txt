@@ -1,4 +1,4 @@
-add_library(lab3z2 Lab3_z2.c)
+add_library(lab3z5 Lab3_z5.c)
 
-target_include_directories(lab3z2
+target_include_directories(lab3z5
     INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
