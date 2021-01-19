@@ -14,11 +14,11 @@ set(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
 # set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} ${GCC_COVERAGE_LINK_FLAGS}")
 
 # select example to compile, only one option can have state ON
-option(LAB3_ZAD1_SOLUTION "Build solution for zad1 from lab3" OFF)
+option(LAB3_ZAD1_SOLUTION "Build solution for zad1 from lab3" ON)
 option(LAB3_ZAD1A_SOLUTION "Build solution for zad1a" OFF)
 option(LAB3_ZAD1B_SOLUTION "Build solution for zad1b" OFF)
 option(LAB3_ZAD2_SOLUTION "Build solution for zad2 from lab3" OFF)
-option(LAB3_ZAD3_SOLUTION "Build solution for zad3 from lab3" ON)
+option(LAB3_ZAD3_SOLUTION "Build solution for zad3 from lab3" OFF)
 option(LAB3_ZAD4_SOLUTION "Build solution for zad4 from lab3" OFF)
 option(LAB3_ZAD5_SOLUTION "Build solution for zad5 from lab3" OFF)
 option(LAB4_ZAD1_SOLUTION "Build solution for zad1 from lab4" OFF)
