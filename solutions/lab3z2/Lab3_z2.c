@@ -1,12 +1,13 @@
 #include "Lab3_z2.h"
+#include <ProjectConfig.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 // ten plik nagłówkowy zawiera definicje wartości maksymalnych i minimalnych dla różnych typów
 #include <limits.h>
 
-// ścieżka do pliku (system Linux)
-static const char * data_file_path = "/home/byq77/workspace/c-workspace/ti-final-lab-revision/solutions/lab3z2/dane.txt";
+// ścieżka do pliku
+static const char * data_file_path = TEST_DATA_ABS_PATH;
 
 // definicje funkcji inline zwracających maksimum lub minimum
 static inline int imin(int a, int b) { return (a > b ? b : a); }

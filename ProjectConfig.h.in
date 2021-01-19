@@ -5,3 +5,8 @@
 #cmakedefine LAB3_ZAD3_SOLUTION
 #cmakedefine LAB3_ZAD4_SOLUTION
 #cmakedefine LAB3_ZAD5_SOLUTION
+#cmakedefine LAB4_ZAD1_SOLUTION
+#cmakedefine LAB4_ZAD2_SOLUTION
+#cmakedefine LAB4_ZAD3_SOLUTION
+#cmakedefine LAB4_ZAD4_SOLUTION
+#cmakedefine TEST_DATA_ABS_PATH "@TEST_DATA_ABS_PATH@"

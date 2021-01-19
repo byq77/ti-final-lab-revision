@@ -1,4 +1,5 @@
 #include "Lab3_z1.h"
+#include <ProjectConfig.h>
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,8 +10,8 @@
 #define X2(a,b,c) ((-(b) - sqrt(DELTA(a,b,c)))/(2 * (a)))
 #define X0(a,b) (-(b)/(2*(a)))
 
-// c-string przechowujący ścieżkę do pliku (ścieżka jest dla systemu Linux, u ciebie może wyglądać inaczej)
-static const char * file_path = "/home/byq77/workspace/c-workspace/ti-final-lab-revision/solutions/lab3z1/f_kwadratowa_dane.txt";
+// c-string przechowujący ścieżkę do pliku
+static const char * file_path = TEST_DATA_ABS_PATH;
 
 // Definicja funkcji obliczającej pierwiastki f. kwadratowej
 //

@@ -1,4 +1,5 @@
 #include "Lab3_z3.h"
+#include <ProjectConfig.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -7,8 +8,8 @@
 // wczytać do tablicy z pliku
 #define MAX_ARRAY_CAPACITY 100
 
-// ścieżka do pliku z
-static const char * data_file_path = "/home/byq77/workspace/c-workspace/ti-final-lab-revision/solutions/lab3z3/dane.txt";
+// ścieżka do pliku
+static const char * data_file_path = TEST_DATA_ABS_PATH;
 
 // tablica typu int na dane z pliku
 int data[MAX_ARRAY_CAPACITY];
